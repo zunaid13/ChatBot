@@ -1,0 +1,60 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "How are you",
+                "Is anyone there?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "See you later",
+                "Adios"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "What kinds of items are there?"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Can I pay with Paypal?"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "Can I get my order delivered?"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Do you know a joke?"
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "How can I track my order?"
+            ]
+        },
+        {
+            "tag": "wifi",
+            "patterns": [
+                "Do you have wifi?"
+            ]
+        }
+    ]
+}

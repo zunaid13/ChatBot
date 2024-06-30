@@ -1,0 +1,158 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Greetings",
+          "Hey there",
+          "What's up"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Greetings! How may I assist you?",
+          "Hey there! Welcome to our coffee shop."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Catch you later",
+          "Appreciate it",
+          "Take care",
+          "Adios"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Goodbye! Have a great day.",
+          "Take care! See you soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!",
+          "Appreciate it"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure",
+          "You're welcome!",
+          "Glad I could assist."
+        ]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "Can I see your menu?",
+          "What are your offerings?"
+        ],
+        "responses": [
+          "We sell coffee, tea, pastries, and sandwiches",
+          "We have a variety of coffees, teas, pastries, and sandwiches",
+          "Our menu includes a selection of coffees, teas, pastries, and sandwiches"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "What payment methods do you accept?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard, American Express, Discover, and Paypal",
+          "We accept most major credit cards, and Paypal",
+          "You can pay with VISA, Mastercard, American Express, Discover, or Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?",
+          "Can I get my order delivered?",
+          "Do you offer delivery services?",
+          "Take out?"
+        ],
+        "responses": [
+          "Delivery typically takes 2-4 days",
+          "Shipping usually takes 2-4 days",
+          "You can expect your delivery within 2-4 days",
+          "Yes, we offer delivery services with a standard delivery time of 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Make me laugh!",
+          "Joke please!"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Why don't eggs tell jokes? Because they'd crack each other up!",
+          "I told my wife she was drawing her eyebrows too high. She looked surprised."
+        ]
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "Can I check my order status?",
+          "How can I track my order?",
+          "Where is my order?",
+          "Is my order ready?",
+          "Check my order",
+          "How much longer?"
+        ],
+        "responses": [
+          "Sure! Please provide your order number and I'll check the status for you.",
+          "You can track your order using the order number provided in your confirmation email.",
+          "Your order is currently being processed. You'll receive a notification once it's ready for pickup or delivery."
+        ]
+      },
+      {
+        "tag": "wifi",
+        "patterns": [
+          "Do you have wifi?",
+          "Is there wifi available?",
+          "Can I connect to wifi here?",
+          "Wifi password?",
+          "Access to wifi?"
+        ],
+        "responses": [
+          "Yes, we provide complimentary wifi to our customers.",
+          "Wifi is available for customers. The password is 'coffee123'.",
+          "Feel free to connect to our wifi network named 'CoffeeShopWifi'.",
+          "You can access our free wifi by selecting the 'CoffeeShopWifi' network and entering the password 'coffee123'."
+        ]
+      }
+    ]
+  }
+  

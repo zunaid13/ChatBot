@@ -1,0 +1,43 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hey bro"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks man"]
+        },
+        {
+            "tag": "items",
+            "patterns": ["Any offers?"]
+        },
+        {
+            "tag": "payments",
+            "patterns": ["How to pay?"]
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["Take out?"]
+        },
+        {
+            "tag": "funny",
+            "patterns": ["Joke please"]
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["How much longer?"]
+        },
+        {
+            "tag": "wifi",
+            "patterns": ["Password please"]
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Greetings",
+                "Hello",
+                "Hi",
+                "Hey",
+                "What's up",
+                "Hey there",
+                "Good day"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "Catch you later",
+                "Take care"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank's a lot!",
+                "That's helpful",
+                "Thanks",
+                "Appreciate it"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Can I see your menu?",
+                "What do you sell?",
+                "Which items do you have?",
+                "What are your offerings?"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you accept Mastercard?",
+                "Do you take credit cards?",
+                "What payment methods do you accept?",
+                "Are you cash only?"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "When do I get my delivery?",
+                "Do you offer delivery services?",
+                "How long does shipping take?"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me something funny!",
+                "Tell me a joke!",
+                "Make me laugh!"
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "Is my order ready?",
+                "Check my order",
+                "Can I check my order status?"
+            ]
+        },
+        {
+            "tag": "wifi",
+            "patterns": [
+                "Can I connect to wifi here?",
+                "Access to wifi?",
+                "Wifi password?",
+                "Is there wifi available?"
+            ]
+        }
+    ]
+}
